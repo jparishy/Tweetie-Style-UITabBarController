@@ -20,7 +20,7 @@ Either way, I think this is a cooler solution to the Tweetie
 style tab bar controller's I found when I googled for this. Fun experience so I
 thought I'd share!
 
-![Screenshot](/README_files/image002.png "Screenshot")
+![alt Screenshot](/README_files/image002.png "Screenshot")
 
 I only used one icon for this example, it does work with
 unique ones!
