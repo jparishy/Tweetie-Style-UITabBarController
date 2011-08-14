@@ -20,7 +20,7 @@ Either way, I think this is a cooler solution to the Tweetie
 style tab bar controller's I found when I googled for this. Fun experience so I
 thought I'd share!
 
-![alt Screenshot](https://github.com/jparishy/Tweetie-Style-UITabBarController/raw/master/README_files/image002.png "Screenshot")
+![alt Screenshot](https://github.com/jparishy/Tweetie-Style-UITabBarController/raw/master/Screenshots/screenshotLarge.png "Screenshot")
 
 I only used one icon for this example, it does work with
 unique ones!
