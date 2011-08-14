@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5F9EB8D13F6D621009D02DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F9EB8C13F6D621009D02DE /* UIKit.framework */; };
+		C5F9EB8F13F6D621009D02DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F9EB8E13F6D621009D02DE /* Foundation.framework */; };
+		C5F9EB9113F6D621009D02DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F9EB9013F6D621009D02DE /* CoreGraphics.framework */; };
+		C5F9EB9713F6D621009D02DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F9EB9513F6D621009D02DE /* InfoPlist.strings */; };
+		C5F9EB9913F6D621009D02DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9EB9813F6D621009D02DE /* main.m */; };
+		C5F9EB9D13F6D621009D02DE /* TweetieTabBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9EB9C13F6D621009D02DE /* TweetieTabBarAppDelegate.m */; };
+		C5F9EBA013F6D621009D02DE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F9EB9E13F6D621009D02DE /* MainWindow.xib */; };
+		C5F9EBA313F6D621009D02DE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9EBA213F6D621009D02DE /* FirstViewController.m */; };
+		C5F9EBA613F6D621009D02DE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9EBA513F6D621009D02DE /* SecondViewController.m */; };
+		C5F9EBA913F6D621009D02DE /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F9EBA713F6D621009D02DE /* FirstView.xib */; };
+		C5F9EBAC13F6D621009D02DE /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F9EBAA13F6D621009D02DE /* SecondView.xib */; };
+		C5F9EBC013F72624009D02DE /* TweetieTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9EBBE13F72624009D02DE /* TweetieTabBarController.m */; };
+		C5F9EBC113F72624009D02DE /* TweetieTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F9EBBF13F72624009D02DE /* TweetieTabBarController.xib */; };
+		C5F9EBC413F72A94009D02DE /* TweetieTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9EBC313F72A94009D02DE /* TweetieTabBar.m */; };
+		C5F9EBC713F738A8009D02DE /* MultiUpload.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F9EBC513F738A8009D02DE /* MultiUpload.png */; };
+		C5F9EBC813F738A8009D02DE /* MultiUpload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F9EBC613F738A8009D02DE /* MultiUpload@2x.png */; };
+		C5F9EBCA13F744A0009D02DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F9EBC913F744A0009D02DE /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5F9EB8813F6D620009D02DE /* TweetieTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetieTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F9EB8C13F6D621009D02DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5F9EB8E13F6D621009D02DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5F9EB9013F6D621009D02DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5F9EB9413F6D621009D02DE /* TweetieTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetieTabBar-Info.plist"; sourceTree = "<group>"; };
+		C5F9EB9613F6D621009D02DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5F9EB9813F6D621009D02DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5F9EB9A13F6D621009D02DE /* TweetieTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetieTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		C5F9EB9B13F6D621009D02DE /* TweetieTabBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetieTabBarAppDelegate.h; sourceTree = "<group>"; };
+		C5F9EB9C13F6D621009D02DE /* TweetieTabBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetieTabBarAppDelegate.m; sourceTree = "<group>"; };
+		C5F9EB9F13F6D621009D02DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C5F9EBA113F6D621009D02DE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C5F9EBA213F6D621009D02DE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C5F9EBA413F6D621009D02DE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C5F9EBA513F6D621009D02DE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C5F9EBA813F6D621009D02DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		C5F9EBAB13F6D621009D02DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		C5F9EBBD13F72624009D02DE /* TweetieTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetieTabBarController.h; sourceTree = "<group>"; };
+		C5F9EBBE13F72624009D02DE /* TweetieTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetieTabBarController.m; sourceTree = "<group>"; };
+		C5F9EBBF13F72624009D02DE /* TweetieTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetieTabBarController.xib; sourceTree = "<group>"; };
+		C5F9EBC213F72A94009D02DE /* TweetieTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetieTabBar.h; sourceTree = "<group>"; };
+		C5F9EBC313F72A94009D02DE /* TweetieTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetieTabBar.m; sourceTree = "<group>"; };
+		C5F9EBC513F738A8009D02DE /* MultiUpload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MultiUpload.png; sourceTree = "<group>"; };
+		C5F9EBC613F738A8009D02DE /* MultiUpload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MultiUpload@2x.png"; sourceTree = "<group>"; };
+		C5F9EBC913F744A0009D02DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F9EB8513F6D620009D02DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F9EBCA13F744A0009D02DE /* QuartzCore.framework in Frameworks */,
+				C5F9EB8D13F6D621009D02DE /* UIKit.framework in Frameworks */,
+				C5F9EB8F13F6D621009D02DE /* Foundation.framework in Frameworks */,
+				C5F9EB9113F6D621009D02DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F9EB7D13F6D620009D02DE = {
+			isa = PBXGroup;
+			children = (
+				C5F9EBC913F744A0009D02DE /* QuartzCore.framework */,
+				C5F9EB9213F6D621009D02DE /* TweetieTabBar */,
+				C5F9EB8B13F6D620009D02DE /* Frameworks */,
+				C5F9EB8913F6D620009D02DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F9EB8913F6D620009D02DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F9EB8813F6D620009D02DE /* TweetieTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F9EB8B13F6D620009D02DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F9EB8C13F6D621009D02DE /* UIKit.framework */,
+				C5F9EB8E13F6D621009D02DE /* Foundation.framework */,
+				C5F9EB9013F6D621009D02DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5F9EB9213F6D621009D02DE /* TweetieTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C5F9EB9B13F6D621009D02DE /* TweetieTabBarAppDelegate.h */,
+				C5F9EB9C13F6D621009D02DE /* TweetieTabBarAppDelegate.m */,
+				C5F9EB9E13F6D621009D02DE /* MainWindow.xib */,
+				C5F9EBA113F6D621009D02DE /* FirstViewController.h */,
+				C5F9EBA213F6D621009D02DE /* FirstViewController.m */,
+				C5F9EBA413F6D621009D02DE /* SecondViewController.h */,
+				C5F9EBA513F6D621009D02DE /* SecondViewController.m */,
+				C5F9EBA713F6D621009D02DE /* FirstView.xib */,
+				C5F9EBAA13F6D621009D02DE /* SecondView.xib */,
+				C5F9EB9313F6D621009D02DE /* Supporting Files */,
+				C5F9EBBD13F72624009D02DE /* TweetieTabBarController.h */,
+				C5F9EBBE13F72624009D02DE /* TweetieTabBarController.m */,
+				C5F9EBBF13F72624009D02DE /* TweetieTabBarController.xib */,
+				C5F9EBC213F72A94009D02DE /* TweetieTabBar.h */,
+				C5F9EBC313F72A94009D02DE /* TweetieTabBar.m */,
+			);
+			path = TweetieTabBar;
+			sourceTree = "<group>";
+		};
+		C5F9EB9313F6D621009D02DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5F9EBC513F738A8009D02DE /* MultiUpload.png */,
+				C5F9EBC613F738A8009D02DE /* MultiUpload@2x.png */,
+				C5F9EB9413F6D621009D02DE /* TweetieTabBar-Info.plist */,
+				C5F9EB9513F6D621009D02DE /* InfoPlist.strings */,
+				C5F9EB9813F6D621009D02DE /* main.m */,
+				C5F9EB9A13F6D621009D02DE /* TweetieTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F9EB8713F6D620009D02DE /* TweetieTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F9EBAF13F6D621009D02DE /* Build configuration list for PBXNativeTarget "TweetieTabBar" */;
+			buildPhases = (
+				C5F9EB8413F6D620009D02DE /* Sources */,
+				C5F9EB8513F6D620009D02DE /* Frameworks */,
+				C5F9EB8613F6D620009D02DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetieTabBar;
+			productName = TweetieTabBar;
+			productReference = C5F9EB8813F6D620009D02DE /* TweetieTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F9EB7F13F6D620009D02DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "DiDev Studios";
+			};
+			buildConfigurationList = C5F9EB8213F6D620009D02DE /* Build configuration list for PBXProject "TweetieTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5F9EB7D13F6D620009D02DE;
+			productRefGroup = C5F9EB8913F6D620009D02DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F9EB8713F6D620009D02DE /* TweetieTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F9EB8613F6D620009D02DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F9EB9713F6D621009D02DE /* InfoPlist.strings in Resources */,
+				C5F9EBA013F6D621009D02DE /* MainWindow.xib in Resources */,
+				C5F9EBA913F6D621009D02DE /* FirstView.xib in Resources */,
+				C5F9EBAC13F6D621009D02DE /* SecondView.xib in Resources */,
+				C5F9EBC113F72624009D02DE /* TweetieTabBarController.xib in Resources */,
+				C5F9EBC713F738A8009D02DE /* MultiUpload.png in Resources */,
+				C5F9EBC813F738A8009D02DE /* MultiUpload@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F9EB8413F6D620009D02DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F9EB9913F6D621009D02DE /* main.m in Sources */,
+				C5F9EB9D13F6D621009D02DE /* TweetieTabBarAppDelegate.m in Sources */,
+				C5F9EBA313F6D621009D02DE /* FirstViewController.m in Sources */,
+				C5F9EBA613F6D621009D02DE /* SecondViewController.m in Sources */,
+				C5F9EBC013F72624009D02DE /* TweetieTabBarController.m in Sources */,
+				C5F9EBC413F72A94009D02DE /* TweetieTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5F9EB9513F6D621009D02DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F9EB9613F6D621009D02DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5F9EB9E13F6D621009D02DE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F9EB9F13F6D621009D02DE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C5F9EBA713F6D621009D02DE /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F9EBA813F6D621009D02DE /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		C5F9EBAA13F6D621009D02DE /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F9EBAB13F6D621009D02DE /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5F9EBAD13F6D621009D02DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5F9EBAE13F6D621009D02DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5F9EBB013F6D621009D02DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetieTabBar/TweetieTabBar-Prefix.pch";
+				INFOPLIST_FILE = "TweetieTabBar/TweetieTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5F9EBB113F6D621009D02DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetieTabBar/TweetieTabBar-Prefix.pch";
+				INFOPLIST_FILE = "TweetieTabBar/TweetieTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F9EB8213F6D620009D02DE /* Build configuration list for PBXProject "TweetieTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F9EBAD13F6D621009D02DE /* Debug */,
+				C5F9EBAE13F6D621009D02DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F9EBAF13F6D621009D02DE /* Build configuration list for PBXNativeTarget "TweetieTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F9EBB013F6D621009D02DE /* Debug */,
+				C5F9EBB113F6D621009D02DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F9EB7F13F6D620009D02DE /* Project object */;
+}
